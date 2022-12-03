@@ -1,18 +1,12 @@
 import React, { useEffect, useState } from 'react'
 import TinderCard from "react-tinder-card"
 import "./TinderCards.css"
-import Anas from "./Anas_meme.jpeg"
 import database from "./firebase"
 
 
 
 function TinderCards() {
   const [people, setPeople] = useState([
-    // {
-    //   name: "Anas",
-    //   age: 21,
-    //   url:Anas
-    // },
     // { 
     //   name: "Yi Long Mah",
     //   age: 45,
