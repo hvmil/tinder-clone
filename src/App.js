@@ -5,6 +5,10 @@ import { Routes, Route } from "react-router-dom";
 import Test from "./Test";
 import TinderCards from "./TinderCards";
 import SwipeButtons from "./SwipeButtons";
+import Chats from "./Chats";
+
+
+
 
 function App() {
   return (
@@ -12,7 +16,7 @@ function App() {
       <Header/>
       <Routes>
         
-        <Route path="/chat" element={<h1>HEllo</h1>}/>
+        <Route path="/chat" element={<Chats/>}/>
         <Route path="/" element={<><TinderCards/><SwipeButtons/></>}/>
        
        

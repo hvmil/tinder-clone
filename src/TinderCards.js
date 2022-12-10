@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import TinderCard from "react-tinder-card"
 import "./TinderCards.css"
 import database from "./firebase"
+import PlaceIcon from '@mui/icons-material/Place';
 
 
 
@@ -43,6 +44,9 @@ function TinderCards() {
           className="card"
           >
             <h3>{person.name}, {person.age}</h3>
+            <p>IG: @anastheyousfi </p>
+            {/* <><PlaceIcon className="location_logo" fontSize="small" /></>
+            <p2>69 miles away</p2> */}
           </div>
         </TinderCard>
         
